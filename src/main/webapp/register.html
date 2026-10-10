@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FinSmart - Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>FinSmart Registration</h1>
+
+    </header>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+
+        <a href="income.html">Income Entry Form</a>
+
+        <a href="savings.html">Savings Calculator</a>
+
+        <a href="reports.html">Monthly Reports</a>
+
+        <a href="budget.html">Budget Planner</a>
+
+        <a href="register.html">Register</a>
+
+    </nav>
+
+    <main>
+
+        <div class="content-box">
+
+            <h2 style="color: skyblue;">Create Your Account</h2>
+
+            <form id="registerForm">
+
+                <label for="name">Full Name:</label>
+
+                <input type="text" id="name" placeholder="Enter your full name" required>
+
+                <label for="email">Email:</label>
+
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="password">Password:</label>
+
+                <input type="password" id="password" placeholder="Enter password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+
+                <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+
+                <button type="button" id="generateBtn">Generate Registration Number</button>
+
+                <p>Registration Number: <span id="regNumber">Not generated</span></p>
+
+                <button type="submit">Register</button>
+
+            </form>
+
+            <p id="ajaxMessage"></p>
+
+            <div id="storedDetails" style="display: none;">
+
+                <h3>Stored Registration Details:</h3>
+
+                <div id="detailsContent"></div>
+
+                <button type="button" id="clearDataBtn" style="background-color: crimson; margin-top: 15px;">Clear Stored Registration (Reset)</button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; FinSmart</p>
+
+    </footer>
+
+    <script src="scripts/register.js"></script>
+
+</body>
+
+</html>

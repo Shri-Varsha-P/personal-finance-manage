@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FinSmart - Budget</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>FinSmart Portal</h1>
+</header>
+<nav>
+<a href="index.html">Home</a>
+<a href="income.html">Income Entry Form</a>
+<a href="savings.html">Savings Calculator</a>
+<a href="reports.html">Monthly Reports</a>
+<a href="budget.html">Budget Planner</a>
+<a href="register.html">Register</a>
+</nav>
+<main>
+<div class="content-box">
+<h2 style="color:skyblue;">
+Strategic Budget Planner
+</h2>
+<label for="limit">
+Target Limit:
+</label>
+<input
+type="number"
+id="limit"
+placeholder="Enter Budget Amount"
+min="0">
+<p
+id="budgetStatus"
+style="margin-top:20px;font-size:22px;">
+Budget Status:
+</p>
+</div>
+</main>
+<footer>
+<p>&copy; FinSmart</p>
+</footer>
+<script src="scripts/budget.js"></script>
+</body>
+</html>

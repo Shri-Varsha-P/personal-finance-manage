@@ -1,0 +1,19 @@
+echo # Compiled class files > .gitignore
+echo *.class >> .gitignore
+echo build/ >> .gitignore
+echo bin/ >> .gitignore
+echo. >> .gitignore
+echo # Eclipse >> .gitignore
+echo .settings/ >> .gitignore
+echo .classpath >> .gitignore
+echo .project >> .gitignore
+echo .metadata/ >> .gitignore
+echo. >> .gitignore
+echo # IDE >> .gitignore
+echo .idea/ >> .gitignore
+echo *.iml >> .gitignore
+echo .vscode/ >> .gitignore
+echo. >> .gitignore
+echo # OS >> .gitignore
+echo .DS_Store >> .gitignore
+echo Thumbs.db >> .gitignore
